@@ -1,5 +1,6 @@
 const readline = require('readline-sync');
 const axios = require('axios');
+const token = "pk_89b69161b5c64cb4a50dc24bd3d4fc6c";
 
 function searchActions() {  
     return readline.question('Digite o código da ação: ')
@@ -14,9 +15,9 @@ async function start() {
     const precoAtual = api.data.latestPrice;
 
     console.log(`
-        Código: ${symbol}
-        Empresa: ${companyName}
-        Preço Atual: ${latestPrice}
+        Código: ${codigoAcao}
+        Empresa: ${empresa}
+        Preço Atual: ${precoAtual}
     `)
 };
 
