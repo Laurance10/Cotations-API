@@ -27,7 +27,7 @@ $ git clone <https://github.com/laurnce10/cotations-api>
 $ cd cotations-api
 
 # Vá para a pasta server
-$ cd js && cd server
+$ cd js
 
 # Instale as dependências
 $ npm install
